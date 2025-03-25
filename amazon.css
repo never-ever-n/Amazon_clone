@@ -1,0 +1,597 @@
+*{
+    margin:0%;
+    padding:0%;
+    font-family: Arial, Helvetica, sans-serif;
+    scrollbar-width: none;
+}
+body{
+    background-color: #e2e6e7;
+}
+header{
+    height: 50px;
+    width: auto;
+    background-color: #0F1111;
+    display:flex;
+    justify-content: space-around;
+    padding:10px;
+}
+#logo{
+    height: 50px;
+    width:144px;
+    background-image: url(White-Amazon-Logo-PNG-HD-Quality.png);
+    background-size: cover;
+}
+#logo:hover{
+    border-width: 2px ;
+    border-color: white;
+    border-style: solid;
+}
+#add{
+    height: 50px;
+    width: 91px;
+    display:inline-block;
+    color:white;
+}
+#add_logo{
+    display:inline-block;
+}
+#note1{
+    display:inline-block;
+}
+#para1{
+    opacity: 70%;
+}
+#para2{
+    font-weight: bold;
+}
+#add:hover{
+    border-width: 2px ;
+    border-color: white;
+    border-style: solid;
+}
+#search_logo{
+    color:black;
+    height: 37px;
+    width:45px
+}
+#button{
+    position: relative;
+    bottom:10px
+}
+#nav_bar{
+    height: 60px;
+    width:675px;
+
+}
+#type{
+    height: 42.5px;
+    width: 52px;
+    background-color: #e6e3e7;
+    position: relative;
+    left:5px;
+    border:none;
+    border-right: none;
+    text-align: center;
+    border-radius: 5%;
+}
+#type_option{
+    opacity: 20%;
+}
+#search{
+    height: 42px;
+    width: 554px;
+    position: relative;
+    right: 1px;
+    border:none;
+}
+#button{
+    position: relative;
+    bottom:8px;
+    right: 7px;
+    height: 43px;
+    border-top-right-radius: 7%;
+    border-bottom-right-radius: 7%;
+    border:none;
+    background-color: rgb(226, 165, 43);
+}
+#search_logo{
+    font-size: large;
+    position: relative;
+    top:11.5px;
+}
+#country{
+    height: 50px;
+    width: 74px;
+    position: relative;
+    display: flex;
+    justify-content:center;
+    
+}
+#country:hover{
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+}
+#country_logo{
+    height: 17px;
+    width: 22px;
+    background-image: url(images.jpg);
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    top:13px;
+    left:3px;
+}
+#country_type{
+    background-color: transparent;
+    display: inline-block;
+    position: relative;
+    bottom:4px;
+    color:white;
+    border-color: transparent;
+}
+option{
+    background-color: transparent;
+
+}
+.a1{
+    text-decoration: none;
+    color:white;
+
+}
+#header{
+    height: 50px;
+    width:110px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left:10px;
+}
+#header:hover{
+    border-width: 2px;
+    border-style: solid;
+    border-color:white;
+
+}
+#para3{
+    font-size: x-small;
+    
+}
+#para4{
+    font-size:small;
+    font-weight: 600;
+}
+#return{
+    height: 50px;
+    width: 58px;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+}
+#return:hover{
+    border-width: 2px;
+    border-style:solid;
+    border-color:white;
+}
+#para5{
+    font-size:x-small;
+}
+#para6{
+    font-size: small;
+    font-weight: 600;
+}
+#shop_logo{
+    height: 50px;
+    width: 84px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#shop_logo:hover{
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+}
+#cart_logo{
+    font-size:25px;
+}
+#para7{
+    font-size: small;
+    font-weight: 600;
+    position: relative;
+    top:7px;
+    left:4px;
+}
+#below_nav{
+    height: 39px;
+    background-color: #232F3E;
+    display: flex;
+    flex-direction: row;
+}
+#humburger_logo{
+    height: 35px;
+    width: 59px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+#para8{
+    display: inline;
+    font-weight: 500;
+}
+#humburger_logo:hover{
+    border-width: 2px;
+    border-style:solid;
+    border-color:white;
+}
+#paras{
+    color:white;
+    height: 39px;
+    display: flex;
+    gap:10px;
+    font-weight: 500;
+}
+#p1{
+    width: 102px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#p1:hover{
+    border-width: 2px;
+    border-style:solid;
+    border-color:white;
+}
+#p2{
+    width: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#p2:hover{
+    border-width: 2px;
+    border-style:solid;
+    border-color:white;
+}
+#p3{
+    width: 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#p3:hover{
+    border-width: 2px;
+    border-style:solid;
+    border-color:white;
+}
+#p4{
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#p4:hover{
+    border-width: 2px;
+    border-style:solid;
+    border-color:white;
+}
+#p5{
+    width:41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#p5:hover{
+    border-width: 2px;
+    border-style:solid;
+    border-color:white;
+}
+#images{
+    margin:0%;
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scrollbar-width:none;
+    
+    
+}
+@keyframes scroll {
+    0%{transform: translate(0%);}
+    25%{transform: translate(-100%);}
+    50%{transform: translate(-200%);}
+    75%{transform: translate(-300%);}
+    100%{transform: translate(0%);}
+}
+.posters{
+    height: 600px;
+    width: auto;
+    animation-name: scroll;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+#center_link{
+    position:relative;
+    bottom:590px;
+    background-color: white;
+    height: 40px;
+    width: auto;
+    margin-left:20px;
+    margin-right:20px;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#para9{
+    display: inline;
+    font-size: small;
+    font-weight: 500;
+}
+#link{
+    text-decoration: none;
+    display:inline;
+    font-size:small;
+    font-weight: 500;
+}
+#cards_layout{
+    height: 900px;
+    width: 1250px;
+    gap:10px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    bottom:380px;
+    left:140px;
+    
+}
+#boxes{
+    position: relative;
+    bottom:215px;
+    background-color: #e2e6e7;
+}
+.box{
+    height: 420px;
+    width: 300px;
+    background-color: white;
+}
+#para10{
+    font-size:large;
+    font-weight: bolder;
+    margin-top:10px;
+    margin-left:5px;
+    margin-bottom:10px;
+    
+}
+#img{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    top:10px;
+}
+.img{
+    height: 150px;
+    width:150px;
+}
+#anchor{
+    text-decoration: none;
+    color:rgb(30, 160, 216);
+    position:relative;
+    top:20px;
+    font-size: small;
+    margin-left:5px;
+
+}
+.img1{
+    height: 310px;
+    width: 280px;
+    margin-left: 10px;
+}
+#anchor1{
+    text-decoration: none;
+    color:rgb(30, 160, 216);
+    position:relative;
+    top:10px;
+    font-size: small;
+    margin-left:5px;
+}
+.scroll{
+    background-color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+    position: relative;
+    bottom:600px;
+}
+.imgs{
+    background-color: white;
+    height: 290px;
+    display: flex;
+    overflow-x: auto;
+    gap:20px;
+    scrollbar-width: none;
+
+}
+.img2{
+    height: 250px;
+    width: 200px;
+}
+#last{
+    height: 187px;
+    background-color: white;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    bottom:590px;
+}
+#para11{
+    font-weight:600;
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+#text{
+    border-width: 1px;
+    border-color:rgba(0,0,0,0.4);
+    border-style: solid;
+    height: 147px;
+    align-content: center;
+    justify-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+#signin{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    height: 29px;
+    width: 200px;
+    background-color: rgb(226, 165, 43);
+    border-radius: 25px;
+    border-width: none;
+    border-color: transparent;
+
+}
+#signin:hover{
+    background-color:rgba(226,165,43,0.75) ;
+    color:black
+}
+#para12{
+    display: inline;
+    color:black;
+    font-weight: 500;
+}
+#link{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+#link1{
+    display:inline;
+    color:rgb(30, 160, 216);
+    text-decoration:underline;
+}
+#over{
+    height: 49px;
+    width: 100%;
+    border:none;
+    background-color: #364759;
+    color:white;
+    position: relative;
+    bottom:590px;
+}
+#boxe1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #232f3f;
+    color:white;
+    position:relative;
+    bottom:590px;
+
+}
+.box12{
+    height: 291px;
+    width: 222px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.pars{
+    font-weight: 600;
+    margin-top: 20px;
+    
+}
+.an{
+    text-decoration: none;
+    color:white;
+    opacity: 0.8;
+    font-size:small ;
+
+}
+.an:hover{
+    text-decoration: underline;
+    opacity: 0.68;
+}
+#bbox{
+    height: 100;
+    display: flex;
+    padding:20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #232f3f;
+    gap:20px;
+    position: relative;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: #364252;
+    bottom:600px;
+}
+.bbox{
+    background-color: transparent;
+    color:white;
+}
+#lan{
+    height: 33px;
+    width: 116px;
+    background-color: transparent;
+    color:white;
+    border:none;
+}
+#box-1{
+    background-image: url(White-Amazon-Logo-PNG-HD-Quality.png);
+    background-size: cover;
+    height: 50px;
+    width:160px;
+}
+#box-4{
+    position: relative;
+    bottom:0px;
+}
+#cou_logo{
+    height: 17px;
+    width: 22px;
+    background-image: url(images.jpg);
+    background-size: cover;
+    position:relative;
+    display: inline-block;
+    top:5px;
+}
+#one_last{
+    background-color: #131a22;
+    height: 76px;
+    font-size: small;
+    position:relative;
+    bottom:600px;
+}
+#ano{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    padding-top:20px;
+
+}
+.anoo{
+    text-decoration: none;
+    color:white;
+}
+.anno:hover{
+    opacity: 0.7;
+    
+}
+#para13{
+    margin-top: 10px;
+    color:white;
+    text-align: center;
+}
+#but{
+    color:white;
+    text-decoration: none;
+}
